@@ -1,0 +1,20 @@
+1st step
+download git-scm
+
+2nd step
+git init =>> project dir
+git add -A  => files track
+
+
+config name and email
+git config --global user.name "your name"
+git config --global user.email "your github email"
+
+git commit -m "your commit"
+
+=>remote connect local
+git remote add origin repo_url
+git remote -v
+
+
+
