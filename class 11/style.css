@@ -1,0 +1,85 @@
+/* h1 , h2{
+    background-color: red;
+    color: white;
+} */
+
+/* h2{
+    background-color: orange;
+    color: white;
+} */
+
+
+/* universal selector */
+/* * {
+    background-color: black;
+    color: white;
+} */
+
+/* TYPE SELECTOR */
+/* h1{
+    background-color: red;
+} */
+
+/* id SELECTOR */
+/* target => #idName */
+#heading2 {
+    background-color: blue;
+}
+
+
+/* class selector */
+/* target=> .ClassName */
+.headings {
+    background-color: red;
+    color: white;
+}
+
+#heading3 {
+    color: red;
+}
+
+
+.text1 {
+    background-color: red;
+}
+
+p.text1 {
+    color: white;
+}
+
+
+/* CHILD SELECTOR */
+/* .para1>p {
+    color: blue;
+}
+.para1>h1{
+    color: red;
+} */
+
+/* Descendant Selector */
+.para1 p {
+    color: blue;
+
+}
+
+
+.input1 input {
+    background-color: red;
+    color: white;
+}
+
+/* #headID {
+    background-color: royalblue;
+} */
+
+* {
+    background-color: black;
+}
+
+.head1 {
+    background-color: red;
+}
+
+h1 {
+    background-color: brown;
+}
