@@ -1,0 +1,28 @@
+.mainHeading {
+    /* color: #767DD0; */
+    /* color: rgb(255, 0, 232); */
+    /* background-color: #000; */
+    /* color: hsl(305, 100%, 80%); */
+    color: rgba(255, 0, 0, 0.5);
+    background-color: rgba(0, 255, 0, 0.5);
+    /* opacity: 0.5; */
+    /* font-family: 'Times New Roman', Helvetica, Arial, ; */
+    font-family: monospace;
+    font-size: 50px;
+}
+
+.para {
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.oldPrice {
+    text-decoration: line-through;
+}
+
+a {
+    text-decoration: none;
+}
