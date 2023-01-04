@@ -1,0 +1,73 @@
+.container {
+    background-color: red;
+    max-width: 600px;
+    min-width: 400px;
+    /* height: 250px; */
+    max-height: 300px;
+    /* min-height: 250px; */
+    overflow: auto;
+}
+
+
+.container2 {
+    background-color: red;
+    /* margin: 50px; */
+    /* margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px; */
+    margin: 150px 30px 80px 80px;
+    padding: 20px;
+}
+
+
+.container2 h1 {
+    color: blue;
+}
+
+.container3 {
+    background-color: orange;
+    /* margin: 0px auto; */
+    width: 400px;
+    margin: 20px auto;
+
+}
+
+/* 
+.heading {
+    margin-top: -20px;
+} */
+
+
+/* .img {
+    width: 300px;
+    height: 300px;
+} */
+
+/* .newBox {
+    background-color: red;
+    width: 500px;
+    height: 400px;
+}
+
+
+.img {
+    width: 50%;
+    height: 50%;
+} */
+
+
+.box {
+    background-color: red;
+    width: 50%;
+    /* padding: 50px; */
+}
+
+.box h1 {
+    background-color: blue;
+    width: 80%;
+    /* border-width:2px ;
+    border-style: double;
+    border-color: pink; */
+    border: 6px solid black;
+}
