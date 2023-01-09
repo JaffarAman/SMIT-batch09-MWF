@@ -1,0 +1,83 @@
+h1 {
+    background-color: royalblue;
+    text-align: center;
+    color: white;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    flex-grow: 1;
+
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    flex-shrink: 0;
+    flex-grow: 1;
+
+
+}
+
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    flex-shrink: 0;
+    /* align-self: flex-end; */
+    flex-grow: 1;
+}
+
+.box4 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    flex-shrink: 0;
+    flex-grow: 2;
+}
+
+.parent {
+    /* display: flex; */
+    /* gap: 10px; */
+    /* justify-content: space-evenly; */
+    /* height: 500px; */
+    /* align-items: flex-start; */
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 500px;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+.newParent {
+    background-color: red;
+    height: 500px;
+    margin-top: 100px;
+    display: flex;
+}
+
+.newBox1 {
+    background-color: orange;
+    flex: 1;
+}
+
+.newBox2 {
+    background-color: purple;
+    flex: 2;
+}
+
+.newBox3 {
+    background-color: pink;
+    flex: 1;
+}
