@@ -1,0 +1,79 @@
+.btn {
+    width: 150px;
+    height: 80px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    /* background-color: lightgray; */
+    cursor: pointer;
+    transition: all 1s ease;
+    animation-name: submitBtn;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+/* .btn:hover {
+    background-color: red;
+    width: 300px;
+} */
+
+/* .box {
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid red;
+    margin-top: 50px;
+}
+
+@keyframes submitBtn {
+    0% {
+        background-color: red;
+        width: 120px;
+    }
+
+    50% {
+        background-color: blue;
+        width: 150px;
+    }
+
+    100% {
+        background-color: yellow;
+        width: 200px;
+    }
+} */
+
+
+/* .customClass {
+    -webkit-animation: customAnimation 1s ease-in-out infinite both;
+    animation: customAnimation 1s ease-in-out infinite both;
+
+} */
+
+
+/* @-webkit-keyframes customAnimation {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes customAnimation {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+
+.box2 {
+    border: 1px solid red;
+} */
