@@ -56,21 +56,40 @@
 // null
 
 
-var stringVar = "jaffar10@gmail.com"
+// var stringVar = "jaffar10@gmail.com"
 
-var numberVar = 20;   //Number Data type
-// alert(stringVar)
+// var numberVar = 20;   //Number Data type
+// // alert(stringVar)
 
-var isActive = true  
+// var isActive = true  
 
-alert(isActive)
-
-
+// alert(isActive)
 
 
 
 
 
+// var gender = prompt('Tell your gender')
+// var age = +prompt('Tell your age')
+
+// function isUserAllowed(age, gender) {
+//     if (age >= 18 && gender == 'male') {
+//         alert('User is allowed')
+//     } else {
+//         alert('User is not allowed')
+//     }
+// }
+
+// isUserAllowed(age, gender)
+
+
+var mathsNumber = prompt('Maths marks')
+var urduNumber = prompt('Urdu marks')
+var englishNumber = prompt('English marks')
+
+document.getElementById('maths').innerHTML =  mathsNumber
+document.getElementById('english').innerHTML =  urduNumber
+document.getElementById('urdu').innerHTML =  englishNumber
 
 
 
