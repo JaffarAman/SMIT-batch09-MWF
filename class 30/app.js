@@ -107,8 +107,8 @@
 
 
 
-var userAge = +prompt("Enter your age");
-var userGender = prompt("Enter your gender");
+// var userAge = +prompt("Enter your age");
+// var userGender = prompt("Enter your gender");
 
 
 // if (userAge == 20 && userGender == "female") {
@@ -130,6 +130,9 @@ var userGender = prompt("Enter your gender");
 // } else {
 //     console.log("USER NOT ALLOW")
 // }
+
+
+
 
 
 
