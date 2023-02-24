@@ -89,3 +89,8 @@ for (var i = 0; i < 2; i++) {
 
 }
 
+
+
+
+var arr = new Array()
+console.log(arr)
