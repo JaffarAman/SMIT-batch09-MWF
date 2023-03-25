@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .parentDiv {
+            width: 50%;
+            margin: 50px auto;
+            border: 1px solid red;
+        }
+
+        .inputDiv input {
+            width: 100%;
+        }
+
+        .bodyDiv table {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- <button onclick="nikkah()">CLICK</button>
+    <img src="https://i.pinimg.com/736x/e9/ab/e6/e9abe6314b197e1ee6c71212222c5da5.jpg" onclick="nikkah()" alt=""> -->
+
+
+    <!-- <button onclick="sum(  '100' , 65)">SUM</button> -->
+
+
+
+    <!-- //bottle -->
+    <!-- <input type="text" placeholder="ENTER YOUR NAME" id="userName">
+
+    <button onclick="greetUser()">GREET</button>
+
+    <br>
+
+    <input type="text" placeholder="Enter your number" id="userNumber">
+    <button onclick="showNumber()">ENTER NUMBER</button>
+
+ -->
+
+
+    <div class="parentDiv">
+        <div class="inputDiv">
+            <input type="text" placeholder="Enter Number..." id="number">
+        </div>
+        <div class="bodyDiv">
+            <table border="1">
+                <tr>
+                    <td onclick="setNumber('+')">+</td>
+                    <td onclick="setNumber('-')">-</td>
+                    <td onclick="setNumber('*')">*</td>
+                    <td onclick="setNumber('/')">/</td>
+                </tr>
+
+                <tr>
+                    <td onclick="setNumber(9)">9</td>
+                    <td onclick="setNumber(8)">8</td>
+                    <td onclick="setNumber(7)">7</td>
+                    <td rowspan="4" onclick="ans()">=</td>
+                </tr>
+                <tr>
+                    <td onclick="setNumber(6)">6</td>
+                    <td onclick="setNumber(5)">5</td>
+                    <td onclick="setNumber(4)">4</td>
+
+                </tr>
+                <tr>
+                    <td onclick="setNumber(3)">3</td>
+                    <td onclick="setNumber(2)">2</td>
+                    <td onclick="setNumber(1)">1</td>
+                </tr>
+                <tr>
+                    <td onclick="setNumber(0)">0</td>
+                    <td>C</td>
+                    <td>AC</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
