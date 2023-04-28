@@ -1,0 +1,38 @@
+DOM
+d = Document
+o = object
+m = model
+
+
+child  Nodes
+
+bachay  
+nodes = Elements
+
+[  text  ]= Junk Artifacts
+
+children = junk artifact ignore
+
+firstChild = get first Child 
+firstElementChild = get only html tag
+
+lastChild = get last Child 
+lastElementChild = get only html tag
+
+nextElementSibling
+previousElementSibling
+
+parentNode
+
+
+
+
+
+
+
+
+
+
+
+
+    
