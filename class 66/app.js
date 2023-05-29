@@ -76,44 +76,54 @@
 
 
 
-var table = document.getElementById("table")
-// var entries = prompt("How many entries!")
-var entries = 5
+// var table = document.getElementById("table")
+// // var entries = prompt("How many entries!")
+// var entries = 5
 
-var userData = [{
-    firstName: "Jaffar",
-    lastName: "Aman",
-},
-{
-    firstName: "Ali",
-    lastName: "khan",
-},
-{
-    firstName: "Ali",
-    lastName: "khan",
-},
-{
-    firstName: "Ali",
-    lastName: "khan",
-},
-{
-    firstName: "Ali",
-    lastName: "khan",
-}
-]
+// var userData = [{
+//     firstName: "Jaffar",
+//     lastName: "Aman",
+// },
+// {
+//     firstName: "Ali",
+//     lastName: "khan",
+// },
+// {
+//     firstName: "Ali",
+//     lastName: "khan",
+// },
+// {
+//     firstName: "Ali",
+//     lastName: "khan",
+// },
+// {
+//     firstName: "Ali",
+//     lastName: "khan",
+// }
+// ]
 
-for (var i = 0; i < entries; i++) {
-    var tr = document.createElement("tr")
-
-
-    for (var key in userData[i]) {
-        var td = document.createElement("td")
-        td.innerHTML = userData[i][key]
-        tr.append(td)
-    }
-
-    table.append(tr)
+// for (var i = 0; i < entries; i++) {
+//     var tr = document.createElement("tr")
 
 
-}
+//     for (var key in userData[i]) {
+//         var td = document.createElement("td")
+//         td.innerHTML = userData[i][key]
+//         tr.append(td)
+//     }
 
+//     table.append(tr)
+
+
+// }
+
+
+
+
+
+
+
+
+let div1 = document.getElementById("div1");
+let divChild = div1.childNodes()
+console.log(divChild)

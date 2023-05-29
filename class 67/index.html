@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <section class="formWrapper">
+        <div>
+            <h3>QUIZ APP</h3>
+            <small>Please Fill the form</small>
+        </div>
+        <form onsubmit="formHandler(); return false; ">
+            <input type="text" class="form-control my-2" placeholder="Enter name">
+            <input type="text" class="form-control my-2" placeholder="Enter email">
+            <input type="text" class="form-control my-2" placeholder="Enter mobile number">
+            <input type="text" class="form-control my-2" placeholder="Enter Institue name">
+            <div>
+                <button class="btn btn-primary">SUBMIT</button>
+            </div>
+        </form>
+    </section>
+
+
+    <div class="startBtnWrapper">
+        <button class="btn btn-success" onclick="quizStart()">QUIZ START?</button>
+    </div>
+
+
+    <section class="quizWrapper">
+
+
+        <div class="quizheader">
+            <div>
+                <p>JAFFAR</p>
+                <p>amanjaffar50@gmail.com</p>
+            </div>
+            <div>
+                <h5>Best of luck</h5>
+            </div>
+            <div>
+                <p>Timer</p>
+                <span>00:00</span>
+            </div>
+
+        </div>
+        <div class="Quizbody">
+
+            <div>
+                Q: Lorem ipsum dolor sit amet.
+            </div>
+            <div>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+
+                </ul>
+            </div>
+
+        </div>
+        <div class="quizfooter">
+            <div>
+                <p>1/7</p>
+            </div>
+            <div>
+                <button class="btn btn-primary">NEXT QUES</button>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+    crossorigin="anonymous"></script>
+
+<script src="app.js"></script>
+
+</html>
