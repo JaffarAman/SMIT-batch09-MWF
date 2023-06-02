@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 class="heading"> STOP WATCH</h1>
+
+    <div class="wrapper">
+
+        <div class="watch">
+
+            <div>
+                <h1 id="minElement">00</h1>
+                <h2>min</h2>
+            </div>
+
+            <div>
+                <h1 id="secElement">00</h1>
+                <h2>sec</h2>
+            </div>
+
+            <div>
+                <h1 id="msecElement">00</h1>
+                <h2>msec</h2>
+            </div>
+
+        </div>
+        <div class="btns">
+            <button onclick="startTimer()">Start</button>
+            <button onclick="stoptimer()">Stop</button>
+            <button onclick="resetTimer()">reset</button>
+        </div>
+
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+</html>
