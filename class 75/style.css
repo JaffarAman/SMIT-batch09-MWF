@@ -1,0 +1,11 @@
+.para1 {
+    cursor: pointer;
+}
+
+.appNavbar {
+    display: flex;
+}
+
+.appNavbar>div {
+    flex: 1;
+}
