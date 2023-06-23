@@ -1,0 +1,21 @@
+.para1 {
+    cursor: pointer;
+}
+
+.appNavbar {
+    display: flex;
+}
+
+.appNavbar>div {
+    flex: 1;
+}
+
+.inputBox {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.inputBox>div {
+    margin: 10px 0;
+}
