@@ -36,19 +36,19 @@
 
 
 
-const myPromise = new Promise(function (resolve, reject) {
-    const isAssignmentDone = true
-    if (isAssignmentDone) {
-        resolve("allow")
-    } else {
-        reject("dafa hojao class sy")
-    }
-})
-    .then(function (resolve) {
-        console.log(resolve)
-        alert(resolve)
-    })
-    .catch(function (error) {
-        console.log(error)
-        alert(error)
-    })
+// const myPromise = new Promise(function (resolve, reject) {
+//     const isAssignmentDone = true
+//     if (isAssignmentDone) {
+//         resolve("allow")
+//     } else {
+//         reject("dafa hojao class sy")
+//     }
+// })
+//     .then(function (resolve) {
+//         console.log(resolve)
+//         alert(resolve)
+//     })
+//     .catch(function (error) {
+//         console.log(error)
+//         alert(error)
+//     })
