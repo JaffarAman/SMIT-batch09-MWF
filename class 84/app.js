@@ -1,6 +1,7 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-app.js";
 import { getFirestore, collection, addDoc, getDocs, doc, updateDoc } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-firestore.js";
+import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-auth.js";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -19,7 +20,8 @@ const app = initializeApp(firebaseConfig);
 
 // Initialize Cloud Firestore and get a reference to the service
 const db = getFirestore(app);
-
+// Initialize AUTH
+const auth = getAuth();
 
 
 
@@ -39,8 +41,7 @@ async function getTodos() {
     try {
         const arr = []
         const querySnapshot = await getDocs(todoCollection)
-        querySnapshot.forEach(function (doc) {
-            console.log(doc.id, doc.data())
+        querySnapshot.forEach(function (doc,) {
             const todoValue = doc.data().todo
             createUI(todoValue, doc.id)
             // arr.push({
@@ -109,24 +110,30 @@ function deleteTodo(elem) {
 
 
 function createUI(todoValue, id) {
+    //create LI
+    var liElement = document.createElement("li")
+    liElement.id = id
+    liElement.innerHTML = todoValue
+    liElement.className = "list-group-item d-flex align-items-center justify-content-between"
 
-    const todoUI = `
-    <li id=${id} class="list-group-item d-flex align-items-center justify-content-between">
-    ${todoValue}
-    <div>
-        <button class="btn btn-info" id="editBtn" >EDIT</button>
-        <button class="btn btn-danger" id="deleteBtn" >DEL</button>
-    </div>
-    </li>
-`
-    ulParent.innerHTML += todoUI
-
-    const editBtn = document.querySelector("#editBtn")
-    const deleteBtn = document.querySelector("#deleteBtn")
-
+    var div = document.createElement("div")
+    var editBtn = document.createElement("button")
+    var deleteBtn = document.createElement("button")
+    editBtn.innerHTML = "EDIT"
     editBtn.addEventListener("click", editTodo)
+
+
+    deleteBtn.innerHTML = "DELETE"
     deleteBtn.addEventListener("click", deleteTodo)
 
+    editBtn.className = "btn btn-info"
+    deleteBtn.className = "btn btn-danger"
+
+    div.appendChild(editBtn)
+    div.appendChild(deleteBtn)
+
+    liElement.appendChild(div)
+    ulParent.appendChild(liElement)
 }
 
 
