@@ -1,0 +1,12 @@
+.navbarContainer {
+  background-color: aqua;
+}
+.navbarContainer ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.navbarContainer li {
+  cursor: pointer;
+}
