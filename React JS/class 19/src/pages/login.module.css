@@ -1,0 +1,22 @@
+.loginWrapper {
+  width: 80%;
+  margin: 50px auto;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.loginWrapper h1 {
+  font-size: 30px;
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+.loginWrapper p {
+  margin: 20px 0;
+}
+
+.linkPara {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
