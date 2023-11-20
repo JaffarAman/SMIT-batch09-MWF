@@ -13,4 +13,17 @@ const ProtectedRoute = () => {
   );
 };
 
+
+
+// const ProtectedRoute = () => {
+//   return localStorage.getItem("usertoken") && userType == "vendor" ? (
+//     <>
+//       <Header />
+//       <Outlet />
+//     </>
+//   ) : (
+//     <Navigate to={"/login"} />
+//   );
+// };
+
 export default ProtectedRoute;
